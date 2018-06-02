@@ -1,0 +1,104 @@
+import React, {Component} from 'react';
+
+class Homepage extends Component {
+  render(){
+    return(
+      <div className="container-fluid">
+
+      <div class="content">
+        <div class="container">
+        <div class="page-wrapper">
+  <header>
+    <div class="brand">Datalyze.</div>
+  </header>
+
+  <main>
+    <section class="service1">
+      <div class="content">
+        Understand business strategy
+      </div>
+    </section>
+    <section class="service2">
+      <div class="content">
+        Recommend correct platform
+      </div>
+    </section>
+       <section class="service3">
+      <div class="content">
+        Development and Implementation
+      </div>
+    </section>
+    <section class="service4">
+      <div class="content">
+        Support after deployment
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+</div>
+
+        <div class ="sometext">
+          <h2>Who are we?</h2>
+          <h3>Short description about the Company.</h3>
+        </div>
+        <article class="card">
+  <div class="card__wrapper">
+
+    <figure class="card__feature">
+      <img src="https://www.dropbox.com/s/z7gp2vanse5djxf/waves.jpg?raw=1" class="card__img" alt="waves" width="2750" height="2400"></img>
+    </figure>
+
+    <div class="card__box">
+
+      <header class="card__item card__header">
+        <h6 class="card__item card__item--small card__label">Featured</h6>
+        <h2 class="card__item card__item--small card__title">Article 1</h2>
+      </header>
+
+      <hr class="card__item card__divider"></hr>
+
+      <section class="card__item card__body">
+        <p>Dummy text1</p>
+      </section>
+
+    </div>
+
+  </div>
+</article>
+
+<article class="card">
+  <div class="card__wrapper">
+
+    <figure class="card__feature">
+      <img src="https://www.dropbox.com/s/r06tebu17sjfcca/bridge.jpg?raw=1" class="card__img" alt="Bridge" width="275" height="240"></img>
+    </figure>
+
+    <div class="card__box">
+
+      <header class="card__item card__header">
+        <h6 class="card__item card__item--small card__label">Featured</h6>
+        <h2 class="card__item card__item--small card__title">Article 2</h2>
+      </header>
+
+      <hr class="card__item card__divider"></hr>
+
+      <section class="card__item card__body">
+        <p>Dummy text 2</p>
+      </section>
+
+    </div>
+
+  </div>
+</article>
+
+                  <br /> <br />
+        </div>
+      </div>
+      </div>
+    );
+  }
+}
+
+export default Homepage;
